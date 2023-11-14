@@ -1,1 +1,0 @@
-import {Menu, Name} from "../js/menu";
