@@ -18,6 +18,14 @@ export const cafeteriaFood = [
         vegan: true,
     },
     {
+        name: "Bread Twist",
+        image: '/img/nyc-school-lunch_bread-twist.png',
+        beverage: false,
+        entree: false,
+        side: true,
+        vegan: true,
+    },
+    {
         name: "Broccoli",
         image: '/img/nyc-school-lunch_bad-broccoli.png',
         beverage: false,
