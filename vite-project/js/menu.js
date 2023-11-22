@@ -1,64 +1,188 @@
 console.log("connected");
 
-const cafeteriaFood = [
+export const cafeteriaFood = [
     {
-
+        name: "Biscuit",
+        image: '/img/nyc-school-lunch_bad-biscuit.png',
+        beverage: false,
+        entree: false,
+        side: true,
+        vegan: true,
     },
     {
-
+        name: "Bread",
+        image: '/img/nyc-school-lunch_bread.png',
+        beverage: false,
+        entree: false,
+        side: true,
+        vegan: true,
     },
     {
-
+        name: "Broccoli",
+        image: '/img/nyc-school-lunch_bad-broccoli.png',
+        beverage: false,
+        entree: false,
+        side: true,
+        vegan: true,
     },
     {
-
+        name: "Burger",
+        image: '/img/nyc-school-lunch_bad-burger.png',
+        beverage: false,
+        entree: true,
+        side: false,
+        vegan: false,
     },
     {
-
+        name: "Burrito",
+        image: '/img/nyc-school-lunch_bad-burrito.png',
+        beverage: false,
+        entree: true,
+        side: false,
+        vegan: false,
     },
     {
-
+        name: "Cauliflower",
+        image: '/img/nyc-school-lunch_bad-cauliflower.png',
+        beverage: false,
+        entree: false,
+        side: true,
+        vegan: true,
     },
     {
-
+        name: "Cheese Sandwich",
+        image: '/img/nyc-school-lunch_bad-cheese-sandwich.png',
+        beverage: false,
+        entree: true,
+        side: false,
+        vegan: false,
     },
     {
-
+        name: "Chicken",
+        image: '/img/nyc-school-lunch_bad-chicken.png',
+        beverage: false,
+        entree: true,
+        side: false,
+        vegan: false,
     },
     {
-
+        name: "Chicken Tender",
+        image: '/img/nyc-school-lunch_bad-tender.png',
+        beverage: false,
+        entree: true,
+        side: false,
+        vegan: false,
     },
     {
-
+        name: "Corn",
+        image: '/img/nyc-school-lunch_bad-corn.png',
+        beverage: false,
+        entree: false,
+        side: true,
+        vegan: true,
     },
     {
-
+        name: "Dumplings",
+        image: '/img/nyc-school-lunch_bad-dumplings.png',
+        beverage: false,
+        entree: true,
+        side: false,
+        vegan: false,
     },
     {
-
+        name: "French Pizza",
+        image: '/img/nyc-school-lunch_bad-french-pizza.png',
+        beverage: false,
+        entree: true,
+        side: false,
+        vegan: false,
     },
     {
-
+        name: "Fried Banana",
+        image: '/img/nyc-school-lunch_bad-fried-banana.png',
+        beverage: false,
+        entree: false,
+        side: true,
+        vegan: true,
     },
     {
-
+        name: "Fries",
+        image: '/img/nyc-school-lunch_bad-fries.png',
+        beverage: false,
+        entree: false,
+        side: true,
+        vegan: true,
     },
     {
-
+        name: "Grilled Cheese",
+        image: '/img/nyc-school-lunch_bad-grilled-cheese.png',
+        beverage: false,
+        entree: false,
+        side: false,
+        vegan: false,
     },
     {
-
+        name: "Pasta",
+        image: '/img/nyc-school-lunch_bad-pasta.png',
+        beverage: false,
+        entree: true,
+        side: false,
+        vegan: true,
     },
     {
-
+        name: "PBJ Sandwich",
+        image: '/img/nyc-school-lunch_bad-pbj.png',
+        beverage: false,
+        entree: true,
+        side: false,
+        vegan: true,
     },
     {
-
+        name: "Pickles",
+        image: '/img/nyc-school-lunch_bad-pickles.png',
+        beverage: false,
+        entree: false,
+        side: true,
+        vegan: true,
     },
     {
-
+        name: "Rice",
+        image: '/img/nyc-school-lunch_bad-rice.png',
+        beverage: false,
+        entree: true,
+        side: false,
+        vegan: true,
     },
     {
-
+        name: "1% Lowfat Milk",
+        image: '/img/nyc-school-lunch_lowfat-milk.png',
+        beverage: true,
+        entree: false,
+        side: false,
+        vegan: false,
+    },
+    {
+        name: "Fat Free Milk",
+        image: '/img/nyc-school-lunch_fat-free-milk.png',
+        beverage: true,
+        entree: false,
+        side: false,
+        vegan: false,
+    },
+    {
+        name: "Chocolate Milk",
+        image: '/img/nyc-school-lunch_bad-chocolate-milk.png',
+        beverage: true,
+        entree: false,
+        side: false,
+        vegan: false,
+    },
+    {
+        name: "Water",
+        image: '/img/water-glass.png',
+        beverage: true,
+        entree: false,
+        side: false,
+        vegan: true,
     },
 ]
