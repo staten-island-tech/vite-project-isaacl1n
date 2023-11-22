@@ -117,7 +117,7 @@ export const cafeteriaFood = [
         name: "Grilled Cheese",
         image: '/img/nyc-school-lunch_bad-grilled-cheese.png',
         beverage: false,
-        entree: false,
+        entree: true,
         side: false,
         vegan: false,
     },

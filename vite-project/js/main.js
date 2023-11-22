@@ -1,19 +1,6 @@
 import '../css/style.css'
-import javascriptLogo from '../javascript.svg'
-import viteLogo from '../public/vite.svg'
-import { setupCounter } from './counter.js'
+import { DOMselectors } from './dom.js'
 import { cafeteriaFood } from './menu.js'
-
-const DOMselectors = {
-    body: document.body,
-    toggleButton: document.getElementById("toggle-button"),
-    allFilter: document.getElementById("filter-all"),
-    beverageFilter: document.getElementById("filter-beverages"),
-    entreeFilter: document.getElementById("filter-entrees"),
-    sidesFilter: document.getElementById("filter-sides"),
-    veganFilter: document.getElementById("filter-vegan"),
-    menu: document.getElementById("menu"),
-}
 
 function toggleColors() {
     if (DOMselectors.body.classList.contains("light")) {
@@ -61,10 +48,10 @@ function filterBeverages() {
         DOMselectors.menu.insertAdjacentHTML(
             "beforeend",
             `
-            <div class="menu-item">
-                <img src="${food.image}" alt="" class="item-img">
-                <h2 class="item-name">${food.name}</h2>
-            </div>
+                <div class="menu-item">
+                    <img src="${food.image}" alt="" class="item-img">
+                    <h2 class="item-name">${food.name}</h2>
+                </div>
             `
         );
     });
@@ -78,10 +65,10 @@ function filterEntrees() {
         DOMselectors.menu.insertAdjacentHTML(
             "beforeend",
             `
-            <div class="menu-item">
-                <img src="${food.image}" alt="" class="item-img">
-                <h2 class="item-name">${food.name}</h2>
-            </div>
+                <div class="menu-item">
+                    <img src="${food.image}" alt="" class="item-img">
+                    <h2 class="item-name">${food.name}</h2>
+                </div>
             `
         );
     });
@@ -95,10 +82,10 @@ function filterSides() {
         DOMselectors.menu.insertAdjacentHTML(
             "beforeend",
             `
-            <div class="menu-item">
-                <img src="${food.image}" alt="" class="item-img">
-                <h2 class="item-name">${food.name}</h2>
-            </div>
+                <div class="menu-item">
+                    <img src="${food.image}" alt="" class="item-img">
+                    <h2 class="item-name">${food.name}</h2>
+                </div>
             `
         );
     });
@@ -112,10 +99,10 @@ function filterVegan() {
         DOMselectors.menu.insertAdjacentHTML(
             "beforeend",
             `
-            <div class="menu-item">
-                <img src="${food.image}" alt="" class="item-img">
-                <h2 class="item-name">${food.name}</h2>
-            </div>
+                <div class="menu-item">
+                    <img src="${food.image}" alt="" class="item-img">
+                    <h2 class="item-name">${food.name}</h2>
+                </div>
             `
         );
     });
