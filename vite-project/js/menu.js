@@ -3,7 +3,7 @@ console.log("connected");
 export const cafeteriaFood = [
     {
         name: "Biscuit",
-        image: '/public/nyc-school-lunch_bad-biscuit.png',
+        image: '/nyc-school-lunch_bad-biscuit.png',
         beverage: false,
         entree: false,
         side: true,
@@ -11,7 +11,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Bread",
-        image: '/public/nyc-school-lunch_bread.png',
+        image: '/nyc-school-lunch_bread.png',
         beverage: false,
         entree: false,
         side: true,
@@ -19,7 +19,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Bread Twist",
-        image: '/public/nyc-school-lunch_bread-twist.png',
+        image: '/nyc-school-lunch_bread-twist.png',
         beverage: false,
         entree: false,
         side: true,
@@ -27,7 +27,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Broccoli",
-        image: '/public/nyc-school-lunch_bad-broccoli.png',
+        image: '/nyc-school-lunch_bad-broccoli.png',
         beverage: false,
         entree: false,
         side: true,
@@ -35,7 +35,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Burger",
-        image: '/public/nyc-school-lunch_bad-burger.png',
+        image: '/nyc-school-lunch_bad-burger.png',
         beverage: false,
         entree: true,
         side: false,
@@ -43,7 +43,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Burrito",
-        image: '/public/nyc-school-lunch_bad-burrito.png',
+        image: '/nyc-school-lunch_bad-burrito.png',
         beverage: false,
         entree: true,
         side: false,
@@ -51,7 +51,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Cauliflower",
-        image: '/public/nyc-school-lunch_bad-cauliflower.png',
+        image: '/nyc-school-lunch_bad-cauliflower.png',
         beverage: false,
         entree: false,
         side: true,
@@ -59,7 +59,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Cheese Sandwich",
-        image: '/public/nyc-school-lunch_bad-cheese-sandwich.png',
+        image: '/nyc-school-lunch_bad-cheese-sandwich.png',
         beverage: false,
         entree: true,
         side: false,
@@ -67,7 +67,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Chicken",
-        image: '/public/nyc-school-lunch_bad-chicken.png',
+        image: '/nyc-school-lunch_bad-chicken.png',
         beverage: false,
         entree: true,
         side: false,
@@ -75,7 +75,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Chicken Tender",
-        image: '/public/nyc-school-lunch_bad-tender.png',
+        image: '/nyc-school-lunch_bad-tender.png',
         beverage: false,
         entree: true,
         side: false,
@@ -83,7 +83,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Corn",
-        image: '/public/nyc-school-lunch_bad-corn.png',
+        image: '/nyc-school-lunch_bad-corn.png',
         beverage: false,
         entree: false,
         side: true,
@@ -91,7 +91,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Dumplings",
-        image: '/public/nyc-school-lunch_bad-dumplings.png',
+        image: '/nyc-school-lunch_bad-dumplings.png',
         beverage: false,
         entree: true,
         side: false,
@@ -99,7 +99,7 @@ export const cafeteriaFood = [
     },
     {
         name: "French Pizza",
-        image: '/public/nyc-school-lunch_bad-french-pizza.png',
+        image: '/nyc-school-lunch_bad-french-pizza.png',
         beverage: false,
         entree: true,
         side: false,
@@ -107,7 +107,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Fried Banana",
-        image: '/public/nyc-school-lunch_bad-fried-banana.png',
+        image: '/nyc-school-lunch_bad-fried-banana.png',
         beverage: false,
         entree: false,
         side: true,
@@ -115,7 +115,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Fries",
-        image: '/public/nyc-school-lunch_bad-fries.png',
+        image: '/nyc-school-lunch_bad-fries.png',
         beverage: false,
         entree: false,
         side: true,
@@ -123,7 +123,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Grilled Cheese",
-        image: '/public/nyc-school-lunch_bad-grilled-cheese.png',
+        image: '/nyc-school-lunch_bad-grilled-cheese.png',
         beverage: false,
         entree: true,
         side: false,
@@ -131,7 +131,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Pasta",
-        image: '/public/nyc-school-lunch_bad-pasta.png',
+        image: '/nyc-school-lunch_bad-pasta.png',
         beverage: false,
         entree: true,
         side: false,
@@ -139,7 +139,7 @@ export const cafeteriaFood = [
     },
     {
         name: "PBJ Sandwich",
-        image: '/public/nyc-school-lunch_bad-pbj.png',
+        image: '/nyc-school-lunch_bad-pbj.png',
         beverage: false,
         entree: true,
         side: false,
@@ -147,7 +147,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Pickles",
-        image: '/public/nyc-school-lunch_bad-pickles.png',
+        image: '/nyc-school-lunch_bad-pickles.png',
         beverage: false,
         entree: false,
         side: true,
@@ -155,7 +155,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Rice",
-        image: '/public/nyc-school-lunch_bad-rice.png',
+        image: '/nyc-school-lunch_bad-rice.png',
         beverage: false,
         entree: true,
         side: false,
@@ -163,7 +163,7 @@ export const cafeteriaFood = [
     },
     {
         name: "1% Lowfat Milk",
-        image: '/public/nyc-school-lunch_lowfat-milk.png',
+        image: '/nyc-school-lunch_lowfat-milk.png',
         beverage: true,
         entree: false,
         side: false,
@@ -171,7 +171,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Fat Free Milk",
-        image: '/public/nyc-school-lunch_fat-free-milk.png',
+        image: '/nyc-school-lunch_fat-free-milk.png',
         beverage: true,
         entree: false,
         side: false,
@@ -179,7 +179,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Chocolate Milk",
-        image: '/public/nyc-school-lunch_bad-chocolate-milk.png',
+        image: '/nyc-school-lunch_bad-chocolate-milk.png',
         beverage: true,
         entree: false,
         side: false,
@@ -187,7 +187,7 @@ export const cafeteriaFood = [
     },
     {
         name: "Water",
-        image: '/public/water-glass.png',
+        image: '/water-glass.png',
         beverage: true,
         entree: false,
         side: false,
