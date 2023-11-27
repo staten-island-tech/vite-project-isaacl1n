@@ -13,21 +13,9 @@ function toggleColors() {
 };
 DOMselectors.toggleButton.addEventListener("click", toggleColors);
 
-cafeteriaFood.forEach(food => {
-    DOMselectors.menu.insertAdjacentHTML(
-        "beforeend",
-        `
-            <div class="menu-item">
-                <img src="${food.image}" alt="" class="item-img">
-                <h2 class="item-name">${food.name}</h2>
-            </div>
-        `
-    );
-});
-
-function filterAll() {
+function filterFor(array) {
     DOMselectors.menu.innerHTML = "";
-    cafeteriaFood.forEach(food => {
+    array.forEach(food => {
         DOMselectors.menu.insertAdjacentHTML(
             "beforeend",
             `
@@ -38,73 +26,34 @@ function filterAll() {
             `
         );
     });
+};
+filterFor(cafeteriaFood);
+
+function filterAll() {
+    filterFor(cafeteriaFood);
 };
 DOMselectors.allFilter.addEventListener("click", filterAll);
 
 function filterBeverages() {
-    DOMselectors.menu.innerHTML = "";
     const beverages = cafeteriaFood.filter(food => food.beverage === true);
-    beverages.forEach(food => {
-        DOMselectors.menu.insertAdjacentHTML(
-            "beforeend",
-            `
-                <div class="menu-item">
-                    <img src="${food.image}" alt="" class="item-img">
-                    <h2 class="item-name">${food.name}</h2>
-                </div>
-            `
-        );
-    });
+    filterFor(beverages);
 };
 DOMselectors.beverageFilter.addEventListener("click", filterBeverages);
 
 function filterEntrees() {
-    DOMselectors.menu.innerHTML = "";
     const entrees = cafeteriaFood.filter(food => food.entree === true);
-    entrees.forEach(food => {
-        DOMselectors.menu.insertAdjacentHTML(
-            "beforeend",
-            `
-                <div class="menu-item">
-                    <img src="${food.image}" alt="" class="item-img">
-                    <h2 class="item-name">${food.name}</h2>
-                </div>
-            `
-        );
-    });
+    filterFor(entrees);
 };
 DOMselectors.entreeFilter.addEventListener("click", filterEntrees);
 
 function filterSides() {
-    DOMselectors.menu.innerHTML = "";
     const sides = cafeteriaFood.filter(food => food.side === true);
-    sides.forEach(food => {
-        DOMselectors.menu.insertAdjacentHTML(
-            "beforeend",
-            `
-                <div class="menu-item">
-                    <img src="${food.image}" alt="" class="item-img">
-                    <h2 class="item-name">${food.name}</h2>
-                </div>
-            `
-        );
-    });
+    filterFor(sides);
 };
 DOMselectors.sidesFilter.addEventListener("click", filterSides);
 
 function filterVegan() {
-    DOMselectors.menu.innerHTML = "";
-    const veganFood = cafeteriaFood.filter(food => food.vegan === true);
-    veganFood.forEach(food => {
-        DOMselectors.menu.insertAdjacentHTML(
-            "beforeend",
-            `
-                <div class="menu-item">
-                    <img src="${food.image}" alt="" class="item-img">
-                    <h2 class="item-name">${food.name}</h2>
-                </div>
-            `
-        );
-    });
+    const vegan = cafeteriaFood.filter(food => food.vegan === true);
+    filterFor(vegan);
 };
 DOMselectors.veganFilter.addEventListener("click", filterVegan);

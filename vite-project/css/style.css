@@ -58,10 +58,10 @@ body {
   }
 
 #menu {
-  margin: 2vh auto 0vw auto;
+  margin: 4vh auto 0vw auto;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   max-width: 90%;
 }
   .menu-item {
@@ -69,13 +69,13 @@ body {
     background-color: var(--primary);
     border: solid var(--secondary) 5px;
     border-radius: 20px;
-    max-height: 60vh; max-width: 48vh;
-    margin-bottom: 2vh;
+    max-height: 60vh; max-width: 45vh;
+    margin-bottom: 4vh;
     text-align: center;
   }
     .item-img {
-        height: 20rem; width: 20rem;
-        margin: 4vh 3vh 0vh 3vh;
+        height: 36vh; width: 36vh;
+        margin: 3vh 3vh 0vh 3vh;
     }
     .item-name {
       text-align: center;
